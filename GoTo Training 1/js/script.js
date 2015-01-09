@@ -7,3 +7,8 @@
 
 alert("testing to make sure its connected.");
 
+console.log("This is a console.");
+
+var userInput = prompt("Please type in your name");
+
+console.log("Welcome " + userInput);
