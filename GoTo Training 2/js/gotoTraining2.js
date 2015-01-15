@@ -17,3 +17,58 @@ console.log(name);
 //Welcome the user with
 alert("Welcome " + name + "! Let's figure out how you are.");
 
+//Ask the user what year they are born
+//age = current year subtract the year
+//they were born
+//creat a variable to catch the prompted answer
+var yearBorn = prompt("What year were you born:");
+console.log(yearBorn);
+
+//What is the current Year?
+var currentYear = 2015;
+
+//Calculate the age - create a variable for results
+var age = currentYear -  yearBorn - 1;
+
+console.log(name + " you are " + age + "years old");
+alert(name + " you are " + age + "years old");
+
+//Make it MORE complex
+
+//Ask the user
+
+var yearsMore = prompt("How many years in the future would you like to know your age?");
+
+console.log(yearsMore);
+
+//Calculate future age
+
+// + plus sign does duty
+// prompts ONLY return text strings
+// 10 - returns "10"
+
+// What is Casting or Parsing an integer
+
+//Casting - treat one variable as another
+//parseInt() - looks for a leading number in a text string.
+
+
+var futureAge = age + yearsMore;
+console.log(futureAge);
+
+var a = Number("40");
+
+console.log(a);
+
+var b = Number("40 years old");
+console.log(b);
+//Returns NaN - Not a Number
+var c = parseInt("40");
+console.log(c);
+
+var d = parseInt("40 years old");
+console.log(d);
+
+var f = parseInt("I am 40 years old.");
+console.log(f);
+
