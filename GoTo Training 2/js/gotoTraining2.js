@@ -53,8 +53,13 @@ console.log(yearsMore);
 //parseInt() - looks for a leading number in a text string.
 
 
-var futureAge = age + yearsMore;
+var futureAge = Number(age) + parseInt(yearsMore);
 console.log(futureAge);
+
+// Create a final out text string
+var finalOutput = "You will be " + futureAge + " in " + yearsMore + "years.";
+console.log(finalOutput);
+alert(finalOutput);
 
 var a = Number("40");
 
@@ -71,4 +76,3 @@ console.log(d);
 
 var f = parseInt("I am 40 years old.");
 console.log(f);
-
