@@ -20,3 +20,15 @@ var tipAmount = billAmount * 0.15;
 alert("The recommended tip should be $" + tipAmount);
 alert("Have a safe drive home");
 
+//now we will figure out the total for eating at home
+var groceryBill = prompt("How much was your bill at the supermarket?");
+parseInt(groceryBill);
+console.log(groceryBill);
+
+var meals = prompt("How many meals did you end up making?")
+console.log(meals);
+
+//find out how much each home made meal costs
+var totalForDinner = Number(groceryBill)/Number(meals);
+console.log(totalForDinner);
+alert("Each meal that you made on average cost $" + totalForDinner);
