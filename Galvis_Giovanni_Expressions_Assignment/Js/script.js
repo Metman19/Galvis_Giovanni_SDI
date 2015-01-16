@@ -32,3 +32,8 @@ console.log(meals);
 var totalForDinner = Number(groceryBill)/Number(meals);
 console.log(totalForDinner);
 alert("Each meal that you made on average cost $" + totalForDinner);
+
+var myArr = [restaurantBill,tipAmount,totalForDinner];
+var totalWithTip = myArr[0] + myArr[1];
+console.log(totalWithTip);
+alert("Total with tip for dinner at restaurant is " + String(totalWithTip));
