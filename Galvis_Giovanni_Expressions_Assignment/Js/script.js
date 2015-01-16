@@ -32,8 +32,10 @@ console.log(meals);
 var totalForDinner = Number(groceryBill)/Number(meals);
 console.log(totalForDinner);
 alert("Each meal that you made on average cost $" + totalForDinner);
+//now I will call out an element from my array
+var myArr = [groceryBill];
+console.log(myArr[0]);
+alert("Your grocery bill is" + " $ " + String(myArr[0]));
 
-var myArr = [restaurantBill,tipAmount,totalForDinner];
-var totalWithTip = myArr[0] + myArr[1];
-console.log(totalWithTip);
-alert("Total with tip for dinner at restaurant is " + String(totalWithTip));
+
+
