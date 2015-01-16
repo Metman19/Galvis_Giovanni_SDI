@@ -37,5 +37,8 @@ var myArr = [groceryBill];
 console.log(myArr[0]);
 alert("Your grocery bill is" + " $ " + String(myArr[0]));
 
+console.log(Number(myArr[0]) - Number(restaurantBill));
+
+
 
 
