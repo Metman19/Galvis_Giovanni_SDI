@@ -9,7 +9,7 @@
 Here is the first conditional task, It is for new home owners and they want to find out the square footage
 for their master bedroom.
 */
-alert("Congratulations on your new property, please provide some information.");
+/*alert("Congratulations on your new property, please provide some information.");
 var height=(prompt("Hello, what is the height of the room?"));
 if(height==="" || isNaN(height)){
 //This means the user typed in nothing or Not a Number
@@ -39,8 +39,27 @@ if(squareFootage >= 250){
     console.log("This is a nice cozy room");
     console.log("This room is worth $" + squareFootPrice);
 
-}
+} */
 /*
 I typed in the values for the variables of height, length and squareFootageCost and found out the size of the room and value.
  */
 
+alert("Great workout today, let's calculate how many calories you burned today");
+var maleOrFemale = prompt("Are you a male or female?");
+maleOrFemale = maleOrFemale.toLowerCase();
+if(maleOrFemale === "male"){
+    console.log(maleOrFemale);
+} else if (maleOrFemale === "female"){
+    console.log(maleOrFemale);
+}
+var age = prompt("How old are you");
+if(isNaN(age) || age ===""){
+    age = prompt("Please enter a numerical value, how old are you?");
+} else {
+    console.log(age);
+}
+var miles = prompt("how many miles did you run today?");
+console.log("You ran " + miles + " miles today!");
+if(isNaN(miles)){
+    miles = prompt("Please enter a numerical value, how many miles did you run today");
+}
