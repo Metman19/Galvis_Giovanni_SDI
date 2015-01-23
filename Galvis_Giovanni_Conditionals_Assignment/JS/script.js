@@ -97,3 +97,4 @@ if(maleOrFemale === "male"){
 }
 //I finally did it, I made a calories burned calculation.
 //It worked I entered same values for male and female had different results for each.
+//Learned a lot for this assignment.
