@@ -2,7 +2,6 @@
  * Created by Giovanni Galvis
  * 1/22/15
  * Conditionals Assignment.
- *
  */
 
 /*
@@ -58,6 +57,7 @@ if(isNaN(age) || age ===""){
 } else {
     console.log(age);
 }
+
 var miles = prompt("how many miles did you run today?");
 if(isNaN(miles)){
     miles = prompt("Please enter a numerical value, how many miles did you run today");
@@ -66,6 +66,7 @@ if(isNaN(miles)){
 } else if (miles <10){
     console.log("You ran " + miles + " miles today! Nice!");
 }
+(miles<5)? console.log("Keep it Up!"):console.log("You are over 5 miles");
 var weight = prompt("How much do you weight?");
 if(isNaN(weight) || weight ===""){
     weight = prompt("Please enter a numerical value, how old are you?");
