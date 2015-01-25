@@ -77,7 +77,16 @@ else if (gradeScore >=90){
 }*/
 
 //Group 3 Movie Ticket Price
-var ticketPrice = 12;
-var age;
-var time;
+alert("See if you can get a discount on movie tickets");
+var age = prompt("How old are you?");
+console.log("You are "+age+" years old.");
+var time = prompt("What time is it?");
+console.log("It is "+time+ " PM");
+if(parseInt(age)>=55 || parseInt(age)<=10){
+    console.log("The ticket price is $7.00");
+} else if (parseInt(time)>=3 && parseInt(time)<=5 ){
+    console.log("The ticket price is $7.00");
+} else {
+    console.log("The ticket price is $12.00");
+}
 
