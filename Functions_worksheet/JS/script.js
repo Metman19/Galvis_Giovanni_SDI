@@ -17,7 +17,7 @@ function calculateArea(w,h){
 
 var radius = 30;
 var pie = 3.14159;
-var circumference = calcCir(radius,pie);
+var circumference = calcCir(radius,pie); //First variable for the result.
 console.log("The circumference of the circle is " + circumference);
 
 function calcCir(r,p){
@@ -27,7 +27,7 @@ function calcCir(r,p){
 // The second problem stung - calculate how many bee stings are needed to kill an animal in a function.
 var weight = 170;
 var beeStings = 8.666666667;
-var calcBeeStings = calcBeeStings(weight);
+var calcBeeStings = calcBeeStings(weight); // Here is the variable for the result.
 console.log("It takes "+ calcBeeStings + " bee stings to kill this animal.");
 
 function calcBeeStings(w){
