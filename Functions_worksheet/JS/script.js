@@ -24,3 +24,12 @@ function calcCir(r,p){
     return r*p*2;
 }
 //The parameters that go into the function calculate correctly each time.
+// The second problem stung - calculate how many bee stings are needed to kill an animal in a function.
+var weight = 170;
+var beeStings = 8.666666667;
+var calcBeeStings = calcBeeStings(weight);
+console.log("It takes "+ calcBeeStings + " bee stings to kill this animal.");
+
+function calcBeeStings(w){
+    return w * 8.666666667;
+}
