@@ -57,9 +57,35 @@ function randomizer(minNum,maxNum){
     //Math.random() * (max number - min number) + min number
     var randomNumber = Math.round(Math.random() * (maxNum - minNum) + Number(minNum));
     console.log(randomNumber);
+    //Return the value to our main code
+    return randomNumber;
 }
 //Function Call - start the function running!
 //Put in arguments to send into the function
-randomizer(min, max);
+//Catch the returned value from the function - create a variable to hold it
+var results = randomizer(min, max);
+
+console.log(results);
+
+//I want 15 random numbers?
+
+//Use a loop - for loop -
+//for(declare a variable; condition to test; increment of change){
+//code }
+
+for (var i = 0; i <15; i++){
+   console.log(randomizer(min,max));
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
