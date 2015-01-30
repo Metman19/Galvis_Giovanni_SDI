@@ -77,6 +77,21 @@ for (var i = 0; i <15; i++){
    console.log(randomizer(min,max));
 }
 
+//Validate specific words?
+//Ask a user a yes or no question
+var happy = prompt("Are you happy today? Please answer yes or no:");
+//Uppercase matters!
+//Change the text string to all lower case!
+happy = happy.toLowerCase();
+while(happy !="yes" && happy !="no" && happy != "maybe"){
+    //re-prompt
+    happy = prompt("Only type in yes or no. Are you happy?")
+}
+
+
+
+
+
 
 
 
