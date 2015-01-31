@@ -75,7 +75,7 @@ var surfArea = function(b,p,l){
 var a = surfArea(20,30,45);
 
 console.log("Surface Area of pyramid is "+ a + " feet");
-//The surface area of the pyramid is calculated. 
+//The surface area of the pyramid is calculated.
 
 
 
