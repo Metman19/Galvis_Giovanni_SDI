@@ -9,7 +9,7 @@
 //Created first function
 // let's find out the volume of a pyramid, the formula for this is volume = 1/3*h*l*w.
 
-/*var height = prompt("What is the height of the pyramid?");
+var height = prompt("What is the height of the pyramid?");
 
 while(height===""||isNaN(height)){
     //re-prompt the user
@@ -37,13 +37,13 @@ function pyramidVol(h,w,l){
     return volume;
 }
 console.log("The volume of this pyramid is " + Math.round(calVol) + " feet");
-*/
+
 /*
 This is my first function it is a "normal" function, it contains 3 parameters,while loops validate the input data.
  */
 //The second function will be an anonymous function.
 // Now let's find out the Surface Area.
-/*var base = prompt("What is the base of the pyramid?");
+var base = prompt("What is the base of the pyramid?");
 
 while(base===""||isNaN(base)){
     //re-prompt the user
@@ -63,7 +63,7 @@ while(length===""||isNaN(length)){
     //re-prompt the user
     length = prompt("Please do not leave blank and use only number\n type in a numerical value:")
 }
-console.log("The length of this pyramid is " + length + " feet");*/
+console.log("The length of this pyramid is " + length + " feet");
 
 
 var surfArea = function(b,p,l){
